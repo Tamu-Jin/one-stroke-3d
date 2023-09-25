@@ -77,3 +77,4 @@ crashlytics-build.properties
 *.db
 *.log
 *.asset
+一筆書き/Temp/*
