@@ -133,7 +133,7 @@ PrefabInstance:
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
@@ -168,27 +168,27 @@ PrefabInstance:
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.92387956
+      value: 0.9999985
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.38268343
+      value: -0.0017197537
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 45
+      value: -0.197
       objectReference: {fileID: 0}
     - target: {fileID: 2860594547036820093, guid: 978bcd3ac1fdd3f419e0e1226b578856,
         type: 3}
@@ -1273,7 +1273,7 @@ Transform:
   - {fileID: 2092356087}
   - {fileID: 600669467}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &874984039
 PrefabInstance:
@@ -2061,7 +2061,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1193692032
 PrefabInstance:
