@@ -15,7 +15,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49965
+59262
 Successfully changed project path to: C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 45.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 42.33 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,82 +63,82 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015086 seconds.
+Registered in 0.016623 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 47.58 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 37.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.797 seconds
+- Completed reload, in  0.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (798ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (179ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (474ms)
-			LoadAssemblies (174ms)
+		EndReloadAssembly (432ms)
+			LoadAssemblies (176ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (127ms)
+			SetupTypeCache (115ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (252ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (226ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (30ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (48ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (127ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (107ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011197 seconds.
+Registered in 0.010706 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 46.14 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.75 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.325 seconds
+- Completed reload, in  1.315 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1326ms)
-		BeginReloadAssembly (217ms)
+	ReloadAssembly (1316ms)
+		BeginReloadAssembly (213ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (20ms)
-		EndReloadAssembly (957ms)
-			LoadAssemblies (249ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (951ms)
+			LoadAssemblies (245ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
+			SetupTypeCache (209ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (62ms)
+			RebuildScriptCaches (56ms)
 			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (46ms)
-				BeforeProcessingInitializeOnLoad (118ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
+				RefreshPlugins (37ms)
+				BeforeProcessingInitializeOnLoad (111ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 158 unused Assets / (1.3 MB). Loaded Objects now: 2673.
-Memory consumption went from 185.5 MB to 184.2 MB.
-Total: 2.856300 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.162600 ms  DeleteObjects: 0.338100 ms)
+Memory consumption went from 185.6 MB to 184.2 MB.
+Total: 3.080400 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.162600 ms MarkObjects: 2.270800 ms  DeleteObjects: 0.383400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,100 +166,186 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2437356.055018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/FloorTile.fbx
-  artifactKey: Guid(22fafe74daa539242abff686a0f57e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/FloorTile.fbx using Guid(22fafe74daa539242abff686a0f57e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea33bee35ab823884c918b698d9f1a0') in 0.177846 seconds 
+  Time since last request: 2439011.388394 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab
+  artifactKey: Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab using Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e3f4df2491b2ceacd751f43147676') in 0.151106 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 222.819478 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/BallTex.png
-  artifactKey: Guid(34c4e1d32786e664ab1d68d2885cd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/BallTex.png using Guid(34c4e1d32786e664ab1d68d2885cd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad70abde40fe823ab252622183e1d8') in 0.048197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/CelestialSphere.png
-  artifactKey: Guid(149890751531ea842bc9f52342a46e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CelestialSphere.png using Guid(149890751531ea842bc9f52342a46e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66544a0b805aeea60783c39a23a582a5') in 0.018696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png
-  artifactKey: Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png using Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af49adea0d733aaa3bee88864bdbdfd4') in 0.020296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/JumpSpringTex.png
-  artifactKey: Guid(20bb5c0698a8785488ce314a28cb19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/JumpSpringTex.png using Guid(20bb5c0698a8785488ce314a28cb19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa3d9ccf76070fceb35913d996283e5') in 0.020532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png
-  artifactKey: Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png using Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731da500050939bb9a4eb2089810066') in 0.017438 seconds 
+  Time since last request: 0.000025 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab
+  artifactKey: Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab using Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3f130e449da51d20829b247c767c87') in 0.027793 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000016 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png
-  artifactKey: Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png using Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80334ac5adeb2c12d2c8a89e4f5b9a88') in 0.018363 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile4x4.prefab
+  artifactKey: Guid(5560b12413788da4994a3cee6babb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile4x4.prefab using Guid(5560b12413788da4994a3cee6babb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99145af010345fa436ea01313299e614') in 0.036954 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Trampolines.prefab
+  artifactKey: Guid(f3a23deb7a5446648a768ec3307a6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Trampolines.prefab using Guid(f3a23deb7a5446648a768ec3307a6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed828d43eced6afc15370e65cee8ddb') in 0.091056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab
+  artifactKey: Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab using Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca9e294c2b84dbf6c918f47dd6fa84d') in 0.032442 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ThinTileTex.png
-  artifactKey: Guid(0a0f872e374298543b77fe58d7e52e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ThinTileTex.png using Guid(0a0f872e374298543b77fe58d7e52e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125920bc00b2fb56d0016281b052d6c7') in 0.019991 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Toruses.prefab
+  artifactKey: Guid(6e6d2037f59a4d1429c524c95f86f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Toruses.prefab using Guid(6e6d2037f59a4d1429c524c95f86f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b194d14905f7ef2a8ecca2a9069684e') in 0.044637 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/SwitchTileTex.png
-  artifactKey: Guid(2328afa0851ba89479fe9514bb767632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/SwitchTileTex.png using Guid(2328afa0851ba89479fe9514bb767632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96255d0916fc31f01498cb45aedb2a52') in 0.018567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png
-  artifactKey: Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png using Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc290027a195299ad16dbff9ee0fe0d6') in 0.018648 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/JumpTileWall.prefab
+  artifactKey: Guid(59ce7a5aafa203643a5217fc84b0a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/JumpTileWall.prefab using Guid(59ce7a5aafa203643a5217fc84b0a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cc0b11f74d80b127750df4a6c6c1bd') in 0.048048 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ButtonTex.png
-  artifactKey: Guid(9b21a6770c981814fb10ad0d59d8fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ButtonTex.png using Guid(9b21a6770c981814fb10ad0d59d8fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7273131da4f5e1f4585419b8723b92') in 0.023968 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab
+  artifactKey: Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab using Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2999a785d0a9166399d37b2228623d4') in 0.026249 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ChargeJumpSpringTex.png
-  artifactKey: Guid(e284a7e9c4f08c04f89cd29410176f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ChargeJumpSpringTex.png using Guid(e284a7e9c4f08c04f89cd29410176f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d2c291a2858e8c85176b0f0870384') in 0.018720 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011577 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1292ms)
+		BeginReloadAssembly (241ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (904ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (223ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (123ms)
+				ProcessInitializeOnLoadAttributes (168ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2683.
+Memory consumption went from 183.3 MB to 182.0 MB.
+Total: 3.539900 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.867900 ms  DeleteObjects: 0.308200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/DisabledSwitchTileTex.png
-  artifactKey: Guid(19a717cd0ee05ac4f8cd409608127e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/DisabledSwitchTileTex.png using Guid(19a717cd0ee05ac4f8cd409608127e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808607ebaa033c16a120ef1379075136') in 0.018911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/PropellerTileTex.png
-  artifactKey: Guid(01d4d2d10cecd57468746e2286505266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/PropellerTileTex.png using Guid(01d4d2d10cecd57468746e2286505266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d63bad6738f1b76bf80d37acd5c8a0') in 0.018620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/WarpGunTex.png
-  artifactKey: Guid(e37de48da65e74b44b5808fe6e3d9df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/WarpGunTex.png using Guid(e37de48da65e74b44b5808fe6e3d9df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be555e791f108571372eb7f785c358b8') in 0.020068 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/CoinTex.png
-  artifactKey: Guid(f42b58797fb6e904a9eaa7911ddd9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CoinTex.png using Guid(f42b58797fb6e904a9eaa7911ddd9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680921827733ad0b2b5c4f925246239') in 0.018790 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012187 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1346ms)
+		BeginReloadAssembly (274ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (921ms)
+			LoadAssemblies (287ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (394ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (40ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (172ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 2686.
+Memory consumption went from 183.3 MB to 182.0 MB.
+Total: 4.137200 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.114100 ms MarkObjects: 3.347500 ms  DeleteObjects: 0.471100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
