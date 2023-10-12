@@ -15,7 +15,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52115
+49965
 Successfully changed project path to: C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 41.89 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 45.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,96 +63,96 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.014335 seconds.
+Registered in 0.015086 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.58 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.774 seconds
+- Completed reload, in  0.797 seconds
 Domain Reload Profiling:
-	ReloadAssembly (775ms)
+	ReloadAssembly (798ms)
 		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (447ms)
+		EndReloadAssembly (474ms)
 			LoadAssemblies (174ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (130ms)
+			SetupTypeCache (127ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (230ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (252ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (31ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (48ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (127ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010724 seconds.
+Registered in 0.011197 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 38.31 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 46.14 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.239 seconds
+- Completed reload, in  1.325 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1240ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (1326ms)
+		BeginReloadAssembly (217ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (895ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (957ms)
+			LoadAssemblies (249ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (197ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (469ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (477ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (27ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (38ms)
-				BeforeProcessingInitializeOnLoad (109ms)
-				ProcessInitializeOnLoadAttributes (254ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (19ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (20ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.41 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 158 unused Assets / (1.3 MB). Loaded Objects now: 2669.
-Memory consumption went from 108.4 MB to 107.0 MB.
-Total: 3.613800 ms (FindLiveObjects: 0.204600 ms CreateObjectMapping: 0.139500 ms MarkObjects: 2.766500 ms  DeleteObjects: 0.502300 ms)
+Unloading 158 unused Assets / (1.3 MB). Loaded Objects now: 2673.
+Memory consumption went from 185.5 MB to 184.2 MB.
+Total: 2.856300 ms (FindLiveObjects: 0.207200 ms CreateObjectMapping: 0.147600 ms MarkObjects: 2.162600 ms  DeleteObjects: 0.338100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,455 +166,100 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2421928.599433 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Bgm.prefab
-  artifactKey: Guid(f8fbb1b0cda09ac458321c415ca945c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Bgm.prefab using Guid(f8fbb1b0cda09ac458321c415ca945c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1008e078075d611e042f1da0fe5f4601') in 0.065066 seconds 
+  Time since last request: 2437356.055018 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Models/FloorTile.fbx
+  artifactKey: Guid(22fafe74daa539242abff686a0f57e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/FloorTile.fbx using Guid(22fafe74daa539242abff686a0f57e6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea33bee35ab823884c918b698d9f1a0') in 0.177846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.819478 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/BallTex.png
+  artifactKey: Guid(34c4e1d32786e664ab1d68d2885cd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/BallTex.png using Guid(34c4e1d32786e664ab1d68d2885cd588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09ad70abde40fe823ab252622183e1d8') in 0.048197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/CelestialSphere.png
+  artifactKey: Guid(149890751531ea842bc9f52342a46e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CelestialSphere.png using Guid(149890751531ea842bc9f52342a46e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66544a0b805aeea60783c39a23a582a5') in 0.018696 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png
+  artifactKey: Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png using Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af49adea0d733aaa3bee88864bdbdfd4') in 0.020296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/JumpSpringTex.png
+  artifactKey: Guid(20bb5c0698a8785488ce314a28cb19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/JumpSpringTex.png using Guid(20bb5c0698a8785488ce314a28cb19e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa3d9ccf76070fceb35913d996283e5') in 0.020532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png
+  artifactKey: Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png using Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731da500050939bb9a4eb2089810066') in 0.017438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png
+  artifactKey: Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png using Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80334ac5adeb2c12d2c8a89e4f5b9a88') in 0.018363 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Player.prefab
-  artifactKey: Guid(ddd06c1947725a449a19ac49466fd0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Player.prefab using Guid(ddd06c1947725a449a19ac49466fd0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Serialization depth limit 10 exceeded at 'ClusterVR.CreatorKit.Operation::Value.constant'. There may be an object composition cycle in one or more of your serialized classes.
-
-Serialization hierarchy:
-11: ClusterVR.CreatorKit.Operation::Value.constant
-10: ClusterVR.CreatorKit.Operation::Expression.value
-9: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-8: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-7: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-6: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-5: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-4: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-3: ClusterVR.CreatorKit.Operation::SingleStatement.expression
-2: ClusterVR.CreatorKit.Operation::Statement.singleStatement
-1: ClusterVR.CreatorKit.Operation::Logic.statements
-0: ClusterVR.CreatorKit.Operation.Implements::PlayerLogic.logic
-Serialization depth limit 10 exceeded at 'ClusterVR.CreatorKit.Operation::Value.constant'. There may be an object composition cycle in one or more of your serialized classes.
-
-Serialization hierarchy:
-11: ClusterVR.CreatorKit.Operation::Value.constant
-10: ClusterVR.CreatorKit.Operation::Expression.value
-9: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-8: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-7: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-6: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-5: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-4: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-3: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-2: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-1: ClusterVR.CreatorKit.Operation::SingleStatement.expression
-0: ClusterVR.CreatorKit.Operation::Statement.singleStatement
-Serialization depth limit 10 exceeded at 'ClusterVR.CreatorKit.Operation::Value.constant'. There may be an object composition cycle in one or more of your serialized classes.
-
-Serialization hierarchy:
-11: ClusterVR.CreatorKit.Operation::Value.constant
-10: ClusterVR.CreatorKit.Operation::Expression.value
-9: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-8: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-7: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-6: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-5: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-4: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-3: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-2: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-1: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-0: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
- -> (artifact id: '6c2ecee26f904580f5a3ba82e3aebafe') in 0.014082 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ThinTileTex.png
+  artifactKey: Guid(0a0f872e374298543b77fe58d7e52e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ThinTileTex.png using Guid(0a0f872e374298543b77fe58d7e52e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '125920bc00b2fb56d0016281b052d6c7') in 0.019991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/SwitchTileTex.png
+  artifactKey: Guid(2328afa0851ba89479fe9514bb767632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/SwitchTileTex.png using Guid(2328afa0851ba89479fe9514bb767632) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96255d0916fc31f01498cb45aedb2a52') in 0.018567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png
+  artifactKey: Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png using Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc290027a195299ad16dbff9ee0fe0d6') in 0.018648 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/SkyStars.prefab
-  artifactKey: Guid(4efc049c139cd0843b729ab4c858fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/SkyStars.prefab using Guid(4efc049c139cd0843b729ab4c858fd1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e3bd6e7d1298cef586f63e09334c6a7') in 0.079499 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ButtonTex.png
+  artifactKey: Guid(9b21a6770c981814fb10ad0d59d8fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ButtonTex.png using Guid(9b21a6770c981814fb10ad0d59d8fad2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac7273131da4f5e1f4585419b8723b92') in 0.023968 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.664398 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab
-  artifactKey: Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab using Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db91c5011fc266622806fc51a205c21e') in 0.069622 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/ChargeJumpWall.prefab
-  artifactKey: Guid(8c36ce1a5bb92af409dd370288603382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/ChargeJumpWall.prefab using Guid(8c36ce1a5bb92af409dd370288603382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e356baabf70de4068d87eead18d5fce4') in 0.095281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab
-  artifactKey: Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab using Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2dd43ebd0a679dd2b52c117758e1df3') in 0.033515 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001506 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/ReactionTiles.prefab
-  artifactKey: Guid(6ab6fadd4b300694d855d731fe62d743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/ReactionTiles.prefab using Guid(6ab6fadd4b300694d855d731fe62d743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb963fb6ac033cef892fd4d56780d67') in 0.058467 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/ChargeJumpSpringTex.png
+  artifactKey: Guid(e284a7e9c4f08c04f89cd29410176f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/ChargeJumpSpringTex.png using Guid(e284a7e9c4f08c04f89cd29410176f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8d2c291a2858e8c85176b0f0870384') in 0.018720 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/PushBallWithSlope.prefab
-  artifactKey: Guid(52e69d430257b054db203bf66cde25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/PushBallWithSlope.prefab using Guid(52e69d430257b054db203bf66cde25c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b03d90bc781f9b91d1f5f0e4c7928d4') in 0.048516 seconds 
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/DisabledSwitchTileTex.png
+  artifactKey: Guid(19a717cd0ee05ac4f8cd409608127e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/DisabledSwitchTileTex.png using Guid(19a717cd0ee05ac4f8cd409608127e59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '808607ebaa033c16a120ef1379075136') in 0.018911 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/TimeLimitSwitchFloorAndGlidTile.prefab
-  artifactKey: Guid(ee5b449f4274ebf46bc2db4555186f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/TimeLimitSwitchFloorAndGlidTile.prefab using Guid(ee5b449f4274ebf46bc2db4555186f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eadb7523641f9c08ebcc0a2f9c6d3835') in 0.124944 seconds 
+  Time since last request: 0.000017 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/PropellerTileTex.png
+  artifactKey: Guid(01d4d2d10cecd57468746e2286505266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/PropellerTileTex.png using Guid(01d4d2d10cecd57468746e2286505266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d63bad6738f1b76bf80d37acd5c8a0') in 0.018620 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SpeedFallJump.prefab
-  artifactKey: Guid(b718f899e1ef5024f8706796f0a3a01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SpeedFallJump.prefab using Guid(b718f899e1ef5024f8706796f0a3a01c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309dc33208743c53ea2ae7f7bdd1b9ee') in 0.093500 seconds 
+  Time since last request: 0.000019 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/WarpGunTex.png
+  artifactKey: Guid(e37de48da65e74b44b5808fe6e3d9df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/WarpGunTex.png using Guid(e37de48da65e74b44b5808fe6e3d9df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be555e791f108571372eb7f785c358b8') in 0.020068 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab
-  artifactKey: Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab using Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38aff13cc86c1d4b158b1af4301a462b') in 0.037333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SwitchFloorAndGridTile.prefab
-  artifactKey: Guid(3a793b39f33ebae49b6cf735c45f25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SwitchFloorAndGridTile.prefab using Guid(3a793b39f33ebae49b6cf735c45f25a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Serialization depth limit 10 exceeded at 'ClusterVR.CreatorKit.Operation::Value.constant'. There may be an object composition cycle in one or more of your serialized classes.
-
-Serialization hierarchy:
-11: ClusterVR.CreatorKit.Operation::Value.constant
-10: ClusterVR.CreatorKit.Operation::Expression.value
-9: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-8: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-7: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-6: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-5: ClusterVR.CreatorKit.Operation::OperatorExpression.operands
-4: ClusterVR.CreatorKit.Operation::Expression.operatorExpression
-3: ClusterVR.CreatorKit.Operation::SingleStatement.expression
-2: ClusterVR.CreatorKit.Operation::Statement.singleStatement
-1: ClusterVR.CreatorKit.Operation::Logic.statements
-0: ClusterVR.CreatorKit.Operation.Implements::ItemLogic.logic
- -> (artifact id: 'e623b15e129a7bbf0eed1c55f7bda795') in 0.115193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/UpTiles.prefab
-  artifactKey: Guid(c90ee70f24b1de545add2f0ecf31501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/UpTiles.prefab using Guid(c90ee70f24b1de545add2f0ecf31501c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90ac7e3ae70a1a41608d8022913138') in 0.060851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.156312 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Block.prefab
-  artifactKey: Guid(0ba283f2bbeb5ce42bedf3d1549f36fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Block.prefab using Guid(0ba283f2bbeb5ce42bedf3d1549f36fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21acde3acd92b62e01293f53bdf29fc3') in 0.021312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Glue.prefab
-  artifactKey: Guid(1293d5917171ab24bb2175e8b0ef859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Glue.prefab using Guid(1293d5917171ab24bb2175e8b0ef859f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9244cd30ef6f008185d977fb93f4684') in 0.020366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/WarpTarget.prefab
-  artifactKey: Guid(8cb15b6430a89b948bb628cc58ac9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/WarpTarget.prefab using Guid(8cb15b6430a89b948bb628cc58ac9906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '094b96810d2a9fd3399e6ae866220e1a') in 0.024508 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/ForcedBlock.prefab
-  artifactKey: Guid(63fbac738b1ed26428026b1c70200f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/ForcedBlock.prefab using Guid(63fbac738b1ed26428026b1c70200f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2e314a9d059e3358cfc7f08aec34e5d') in 0.022902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/RollStick.prefab
-  artifactKey: Guid(ccd5f6c86144b3f41a9653db3569f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/RollStick.prefab using Guid(ccd5f6c86144b3f41a9653db3569f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a652eb298faa318f9370d1e6012a2dea') in 0.023114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SpeedRing.prefab
-  artifactKey: Guid(6a97cdcbff4732441bf422d94a0f1b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SpeedRing.prefab using Guid(6a97cdcbff4732441bf422d94a0f1b32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8357b79b3a3fbb08551ba7945925f45') in 0.031404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SoundTile.prefab
-  artifactKey: Guid(32733222c7c057044ba5fa534077f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SoundTile.prefab using Guid(32733222c7c057044ba5fa534077f5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687140107200bd6a365dd54d08365a61') in 0.037966 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/DisabledSwitchTile.prefab
-  artifactKey: Guid(30b223280f59dfb4289c4dc2c3d8378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/DisabledSwitchTile.prefab using Guid(30b223280f59dfb4289c4dc2c3d8378f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6066656346c6b00bd7c73853dc9d4b89') in 0.018048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Lever.prefab
-  artifactKey: Guid(388d3537dacdb1c4689b64303558c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/Lever.prefab using Guid(388d3537dacdb1c4689b64303558c2f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facbeb4c882ba1e6e06023657bfcde72') in 0.025361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/JumpSpring.prefab
-  artifactKey: Guid(1e9626df7247d6d498577fd1badb55fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/JumpSpring.prefab using Guid(1e9626df7247d6d498577fd1badb55fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '523915f8fb8ad6e25de7231d2692b151') in 0.037167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/IntervalTiles.prefab
-  artifactKey: Guid(ddbbac1397d125e488701ee41e23b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/IntervalTiles.prefab using Guid(ddbbac1397d125e488701ee41e23b400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aac93dbf0fae052de78a4b434208fc8') in 0.037542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SwitchFloor.prefab
-  artifactKey: Guid(f3e4a2d192e99b440a64b912fb7b7640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/SwitchFloor.prefab using Guid(f3e4a2d192e99b440a64b912fb7b7640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f7a0a49d213a5193225ce0e7e3947a') in 0.065106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/WarpGun.prefab
-  artifactKey: Guid(175dc9cbff30c0848b4801574ad44ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Gimmicks/WarpGun.prefab using Guid(175dc9cbff30c0848b4801574ad44ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624ca0601609f9ea672f47a27f001583') in 0.040853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.684489 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/SignBoardMini.prefab
-  artifactKey: Guid(93b54e8f39460cb40bd9fccd13d8d63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/SignBoardMini.prefab using Guid(93b54e8f39460cb40bd9fccd13d8d63b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631c2680fb6b55fc6d8d38025a28b4e0') in 0.011856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab
-  artifactKey: Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab using Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49d21e128532a25d40349c119015df6a') in 0.023259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/WarpExit.prefab
-  artifactKey: Guid(e38ad365a0adabf48b9e80fc5f98f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/WarpExit.prefab using Guid(e38ad365a0adabf48b9e80fc5f98f105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c21242711326e58b7e28cabca64e474') in 0.008942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.657694 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Warps/Respawner.prefab
-  artifactKey: Guid(4e71688ad88ed98439504a3658bcbd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Warps/Respawner.prefab using Guid(4e71688ad88ed98439504a3658bcbd6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481c42fa1f33358768e7e3e11c5e6a22') in 0.027292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.710011 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/AnimatorControllers/OnOffLever.overrideController
-  artifactKey: Guid(8cd552872335b2940ba08ff4188a8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/AnimatorControllers/OnOffLever.overrideController using Guid(8cd552872335b2940ba08ff4188a8e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be361a9866e3961e4a261f206b87ff7f') in 0.012728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.536118 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/BlockGun.ogg
-  artifactKey: Guid(6624a4971c765db4ab67de11545eadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/BlockGun.ogg using Guid(6624a4971c765db4ab67de11545eadf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '558fc5ce3d99366cac2f82e5cdf70430') in 0.087360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/SpreadTile.wav
-  artifactKey: Guid(8710e72a941e21545afc4acec05c7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/SpreadTile.wav using Guid(8710e72a941e21545afc4acec05c7229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716b27cfd57c571ad3a78b9072d37725') in 0.018343 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/Push.wav
-  artifactKey: Guid(7438b279d00ed5e468939b046c13649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/Push.wav using Guid(7438b279d00ed5e468939b046c13649d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d91f7d88e31797065230f43179d777') in 0.019562 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/ChargingSpring.wav
-  artifactKey: Guid(7cfc057def4578248a13a64c107814f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/ChargingSpring.wav using Guid(7cfc057def4578248a13a64c107814f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60eae3e71135a2a478dd4972099aa2da') in 0.017615 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/SpringJump.wav
-  artifactKey: Guid(0d410bc8fec78f644aaad1a0ab79b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/SpringJump.wav using Guid(0d410bc8fec78f644aaad1a0ab79b7cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '261fb2177299185010213425fa7edaa2') in 0.014896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/GetOffSoundTile.wav
-  artifactKey: Guid(f4e9085f975c9a4498e562763a5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/GetOffSoundTile.wav using Guid(f4e9085f975c9a4498e562763a5a48ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7697b83039498bd83f53391e31a8eb8') in 0.019836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Audios/GetOnBrittleTile.wav
-  artifactKey: Guid(86271c5559ec9a64ab451341d81499f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Audios/GetOnBrittleTile.wav using Guid(86271c5559ec9a64ab451341d81499f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de219d762aed4ccd32da4c490bb712e4') in 0.017124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.295408 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/Block.fbx
-  artifactKey: Guid(62ad8ea0bb988c04cba2c2d82f7eea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/Block.fbx using Guid(62ad8ea0bb988c04cba2c2d82f7eea6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0251abc5e0ab00d4ffb6dee2e29fd7a1') in 0.050973 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/SpreadTile.fbx
-  artifactKey: Guid(657776ff054afca4cb118f9f92c4f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/SpreadTile.fbx using Guid(657776ff054afca4cb118f9f92c4f0c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2b0ccb93cbc8bea5f58a71d51a3e8a') in 0.023900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/EnabledSwitchTile.fbx
-  artifactKey: Guid(1fb1e2756363b64408dca84fce5f842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/EnabledSwitchTile.fbx using Guid(1fb1e2756363b64408dca84fce5f842a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '646a7e63846055f6b01a9560f4920733') in 0.023769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/Button.fbx
-  artifactKey: Guid(7ec2e804d4625084db1b5622d0ec67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/Button.fbx using Guid(7ec2e804d4625084db1b5622d0ec67de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c317ee93b281181b58694458810603a') in 0.057460 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/PropellerTile.fbx
-  artifactKey: Guid(40b5aaace3a288041be82142d7634f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/PropellerTile.fbx using Guid(40b5aaace3a288041be82142d7634f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7998108069759693d5842234971c27f0') in 0.064258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/Coin.fbx
-  artifactKey: Guid(c4b8d6a6cbe10584ba3acfcc7271f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/Coin.fbx using Guid(c4b8d6a6cbe10584ba3acfcc7271f02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1391a462056a3c8a2e92909c0912560') in 0.026825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Models/RotationBar.fbx
-  artifactKey: Guid(f19f97d7074e5644a823f1607ace1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Models/RotationBar.fbx using Guid(f19f97d7074e5644a823f1607ace1f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8567d3bd2aa98d227893e29714a215a1') in 0.057811 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.518821 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/BlockTex.png
-  artifactKey: Guid(62a183e089b4bd044913b97b724b30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/BlockTex.png using Guid(62a183e089b4bd044913b97b724b30ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09508db43b95585de6ee28c00c05a94') in 0.039280 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png
-  artifactKey: Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/SoundTileTex.png using Guid(b6ace0279921dc4458e98d0e6735d5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af49adea0d733aaa3bee88864bdbdfd4') in 0.016041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png
-  artifactKey: Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/EnabledSwitchTileTex.png using Guid(903755e85f25ca2408a8e180b50d4f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3731da500050939bb9a4eb2089810066') in 0.021595 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png
-  artifactKey: Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/RingTex.png using Guid(4b9fbc73070c1d347a803a62d842d6c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80334ac5adeb2c12d2c8a89e4f5b9a88') in 0.022808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/CanTex.png
-  artifactKey: Guid(fdd282ed96cece54e837a4c4d35bd4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CanTex.png using Guid(fdd282ed96cece54e837a4c4d35bd4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c2181f0d02331b6bf1687780afb9265') in 0.019574 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png
-  artifactKey: Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/LeberTex.png using Guid(625727e12db288d49ac921655ae217cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc290027a195299ad16dbff9ee0fe0d6') in 0.017492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/FloorTileNormal.png
-  artifactKey: Guid(e6114725912915d48bedb8c25ee123f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/FloorTileNormal.png using Guid(e6114725912915d48bedb8c25ee123f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b791d13df42c8b6c284c04c86c288cd') in 0.030003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Textures/FloorTileTex.png
-  artifactKey: Guid(f6524e5b16adb2d458c8a3c2a7647039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/FloorTileTex.png using Guid(f6524e5b16adb2d458c8a3c2a7647039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e900b779941275b336196dad4ab308') in 0.017588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
   path: Assets/ClusterCreatorKitTemplate/Playground/Textures/CoinTex.png
   artifactKey: Guid(f42b58797fb6e904a9eaa7911ddd9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CoinTex.png using Guid(f42b58797fb6e904a9eaa7911ddd9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680921827733ad0b2b5c4f925246239') in 0.016043 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.010167 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for iOS target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Cannot connect to Unity Package Manager local server
-Warning: Annotation not found!
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
-UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
-System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.235 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1236ms)
-		BeginReloadAssembly (235ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (869ms)
-			LoadAssemblies (248ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (213ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (36ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (115ms)
-				ProcessInitializeOnLoadAttributes (166ms)
-				ProcessInitializeOnLoadMethodAttributes (28ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.19 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 2692.
-Memory consumption went from 107.2 MB to 105.9 MB.
-Total: 3.026800 ms (FindLiveObjects: 0.176400 ms CreateObjectMapping: 0.086200 ms MarkObjects: 2.519300 ms  DeleteObjects: 0.243800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Textures/CoinTex.png using Guid(f42b58797fb6e904a9eaa7911ddd9fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd680921827733ad0b2b5c4f925246239') in 0.018790 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
