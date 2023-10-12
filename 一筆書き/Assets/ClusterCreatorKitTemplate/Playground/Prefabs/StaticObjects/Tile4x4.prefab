@@ -15,6 +15,9 @@ GameObject:
   - component: {fileID: 9016321328157085480}
   - component: {fileID: 8683098063960436809}
   - component: {fileID: 5994265735991478072}
+  - component: {fileID: 7299407114604750640}
+  - component: {fileID: 9038841702094404237}
+  - component: {fileID: 8142531368800707794}
   m_Layer: 0
   m_Name: Tile4x4
   m_TagString: Untagged
@@ -87,7 +90,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2327159375458380363}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 16, y: 2, z: 16}
@@ -163,3 +166,58 @@ MonoBehaviour:
   itemTemplateId:
     value: 0
   spawnPoint: {fileID: 1942627569476363180}
+--- !u!65 &7299407114604750640
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2327159375458380363}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 16, y: 1, z: 16}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &9038841702094404237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2327159375458380363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9016321328157085480}
+  collisionEventType: 1
+  collisionType: 2
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: nuketa
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &8142531368800707794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2327159375458380363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9016321328157085480}
+  key:
+    target: 0
+    key: nuketa
