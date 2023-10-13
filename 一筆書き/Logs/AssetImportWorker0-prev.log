@@ -15,7 +15,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59262
+61249
 Successfully changed project path to: C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/s212058/Documents/GitHub/one-stroke-3d/一筆書き
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 42.33 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.08 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.4f1 (cb45f9cae8b7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Resources/UnitySubsystems
@@ -63,96 +63,96 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56312
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.016623 seconds.
+Registered in 0.013797 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 37.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 39.30 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.753 seconds
+- Completed reload, in  0.755 seconds
 Domain Reload Profiling:
-	ReloadAssembly (754ms)
-		BeginReloadAssembly (179ms)
+	ReloadAssembly (756ms)
+		BeginReloadAssembly (183ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
 		EndReloadAssembly (432ms)
-			LoadAssemblies (176ms)
+			LoadAssemblies (184ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (115ms)
+			SetupTypeCache (113ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (226ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (30ms)
+				InitializePlatformSupportModulesInManaged (29ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (39ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (50ms)
+				ProcessInitializeOnLoadAttributes (109ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.010706 seconds.
+Registered in 0.010660 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.75 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 43.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.315 seconds
+- Completed reload, in  1.485 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1316ms)
-		BeginReloadAssembly (213ms)
+	ReloadAssembly (1486ms)
+		BeginReloadAssembly (239ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (951ms)
-			LoadAssemblies (245ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (1088ms)
+			LoadAssemblies (274ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (209ms)
+			SetupTypeCache (222ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (477ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (567ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (262ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (20ms)
+				RefreshPlugins (43ms)
+				BeforeProcessingInitializeOnLoad (124ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2207 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 158 unused Assets / (1.3 MB). Loaded Objects now: 2673.
 Memory consumption went from 185.6 MB to 184.2 MB.
-Total: 3.080400 ms (FindLiveObjects: 0.262500 ms CreateObjectMapping: 0.162600 ms MarkObjects: 2.270800 ms  DeleteObjects: 0.383400 ms)
+Total: 3.697100 ms (FindLiveObjects: 0.241200 ms CreateObjectMapping: 0.187600 ms MarkObjects: 2.828300 ms  DeleteObjects: 0.439000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,56 +166,657 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 2439011.388394 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab
-  artifactKey: Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/CubeUp.prefab using Guid(4ece9ee4ad3b5df4685fc1ac768f7266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad4e3f4df2491b2ceacd751f43147676') in 0.151106 seconds 
+  Time since last request: 2439747.398720 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4948df771a0c48358f828435cfb806b8') in 0.117354 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab
-  artifactKey: Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile8x8.prefab using Guid(01b7602ee9638d64586071d66c410050) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3f130e449da51d20829b247c767c87') in 0.027793 seconds 
+  Time since last request: 11.816113 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5541a5fae9845a9b7123e27b0f2b8442') in 0.014474 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile4x4.prefab
-  artifactKey: Guid(5560b12413788da4994a3cee6babb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/StaticObjects/Tile4x4.prefab using Guid(5560b12413788da4994a3cee6babb94f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99145af010345fa436ea01313299e614') in 0.036954 seconds 
+  Time since last request: 15.538070 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f49bf2a0d65a64cd0b9f64f8ec658957') in 0.015249 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Trampolines.prefab
-  artifactKey: Guid(f3a23deb7a5446648a768ec3307a6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Trampolines.prefab using Guid(f3a23deb7a5446648a768ec3307a6ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bed828d43eced6afc15370e65cee8ddb') in 0.091056 seconds 
+  Time since last request: 9.556315 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '235b133b63cdcedc40b4388bbadbc53c') in 0.015262 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab
-  artifactKey: Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/SeesawUp.prefab using Guid(578fb8510a65975479a669713698d020) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca9e294c2b84dbf6c918f47dd6fa84d') in 0.032442 seconds 
+  Time since last request: 5.250342 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901463fafff30767a8eb66088d7e41bc') in 0.014819 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Toruses.prefab
-  artifactKey: Guid(6e6d2037f59a4d1429c524c95f86f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/Toruses.prefab using Guid(6e6d2037f59a4d1429c524c95f86f6ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b194d14905f7ef2a8ecca2a9069684e') in 0.044637 seconds 
+  Time since last request: 17.811261 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82257f82ba642a29b33c5dc2f9654423') in 0.014885 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/JumpTileWall.prefab
-  artifactKey: Guid(59ce7a5aafa203643a5217fc84b0a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/JumpTileWall.prefab using Guid(59ce7a5aafa203643a5217fc84b0a570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14cc0b11f74d80b127750df4a6c6c1bd') in 0.048048 seconds 
+  Time since last request: 12.424420 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36fed15b78c257b7d8cbc52aeef9f567') in 0.014399 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab
-  artifactKey: Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Patterns/BarBridge.prefab using Guid(d5804e03c79ae0d49b488cef25cc4303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2999a785d0a9166399d37b2228623d4') in 0.026249 seconds 
+  Time since last request: 14.932860 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49eee58362ff2f2ceaebc434ecd00db5') in 0.015734 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.072869 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e2ca22a72c5a622677a6f3914000f8') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 29.965307 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7d6d811e99dc1ee3dd25fed4afb8ec6') in 0.015721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.890245 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '796482631469f2bdf5112a7b7ebe5a8f') in 0.015496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.620974 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f18fc729b813da8f1665587ddc9bdc2') in 0.015650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.114446 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55b18032df61019b76ccb8ca60411764') in 0.016079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.753775 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5600000b32d5229652da4d6e726be00f') in 0.015966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.569144 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c34920a6433e76bc405ece8fba9d7944') in 0.016409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.708066 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a373c34f96f85b3cbecdb0f4157f61bf') in 0.015781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.869200 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb5a48bea49cf86a43cbfa5fe72f472') in 0.015931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.947282 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b2f61553b13188ec2d5913aa2eea71') in 0.016827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.375690 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89452e54b7239869b2ef2ee45d8631d') in 0.015161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.101556 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1854e471ae0a768c227a8244cdfdf88e') in 0.015395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.242960 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec01b8d83988ff60a555e431e9115c0') in 0.015638 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.237908 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bde56f8f671b81f239410a519272330') in 0.015234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.216734 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b024d0936752fb5691b2719f08bc26c8') in 0.016137 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.011577 seconds.
+Registered in 0.010819 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.264 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1265ms)
+		BeginReloadAssembly (255ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (870ms)
+			LoadAssemblies (270ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (367ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (161ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2682.
+Memory consumption went from 182.6 MB to 181.3 MB.
+Total: 2.953600 ms (FindLiveObjects: 0.173200 ms CreateObjectMapping: 0.144500 ms MarkObjects: 2.270800 ms  DeleteObjects: 0.364200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 22.820542 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dddb2802a513b4d627f9ca47b7b706') in 0.061325 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010644 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.241 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1242ms)
+		BeginReloadAssembly (250ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (267ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (357ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (24ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2685.
+Memory consumption went from 182.6 MB to 181.3 MB.
+Total: 3.741200 ms (FindLiveObjects: 0.311900 ms CreateObjectMapping: 0.106800 ms MarkObjects: 2.993200 ms  DeleteObjects: 0.328100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 66.367762 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20d4f3c1a447f7b990b5af971b800ce') in 0.062351 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012259 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.227 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1228ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (208ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (364ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (159ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2688.
+Memory consumption went from 182.6 MB to 181.3 MB.
+Total: 3.092300 ms (FindLiveObjects: 0.182200 ms CreateObjectMapping: 0.098300 ms MarkObjects: 2.506200 ms  DeleteObjects: 0.304200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 47.022928 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bca20f053c6e09bc1cb2f4e2dbe842') in 0.062250 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011417 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1234ms)
+		BeginReloadAssembly (248ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (266ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (117ms)
+				ProcessInitializeOnLoadAttributes (156ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2691.
+Memory consumption went from 182.6 MB to 181.3 MB.
+Total: 3.633200 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.157300 ms MarkObjects: 2.818600 ms  DeleteObjects: 0.338800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.354048 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d77b1325dae15622800bd5dd6b88f6') in 0.062519 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011104 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.244 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1245ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (26ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (360ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (22ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2694.
+Memory consumption went from 182.6 MB to 181.3 MB.
+Total: 3.330300 ms (FindLiveObjects: 0.189800 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.704600 ms  DeleteObjects: 0.310100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14.262553 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ab9886b0a64b512cc28b56e693bcbd') in 0.067649 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011024 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (855ms)
+			LoadAssemblies (268ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (157ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.40 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2697.
+Memory consumption went from 182.7 MB to 181.4 MB.
+Total: 3.415900 ms (FindLiveObjects: 0.251200 ms CreateObjectMapping: 0.113000 ms MarkObjects: 2.499700 ms  DeleteObjects: 0.550900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.010612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs:575)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.247 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1248ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (853ms)
+			LoadAssemblies (272ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (210ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (23ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.15 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 2700.
+Memory consumption went from 182.6 MB to 181.4 MB.
+Total: 3.814000 ms (FindLiveObjects: 0.228000 ms CreateObjectMapping: 0.130800 ms MarkObjects: 2.854600 ms  DeleteObjects: 0.599200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 31.808701 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e2f551907254194c8f0f3506115a7c9') in 0.069497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.637314 seconds.
+  path: Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab
+  artifactKey: Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ClusterCreatorKitTemplate/Playground/Prefabs/Particle/TileParticle.prefab using Guid(5c1bcca2da4e8c840a466794fb48c940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7177a0a5c4cdc0740527a1e105f2c47') in 0.014148 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011197 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
@@ -234,40 +835,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.292 seconds
+- Completed reload, in  1.219 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1292ms)
-		BeginReloadAssembly (241ms)
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (248ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (904ms)
-			LoadAssemblies (257ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (834ms)
+			LoadAssemblies (268ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (202ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (356ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (37ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (123ms)
-				ProcessInitializeOnLoadAttributes (168ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (24ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (154ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.16 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2683.
-Memory consumption went from 183.3 MB to 182.0 MB.
-Total: 3.539900 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.141700 ms MarkObjects: 2.867900 ms  DeleteObjects: 0.308200 ms)
+Unloading 22 unused Assets / (1.3 MB). Loaded Objects now: 2703.
+Memory consumption went from 182.7 MB to 181.4 MB.
+Total: 2.988800 ms (FindLiveObjects: 0.239700 ms CreateObjectMapping: 0.117700 ms MarkObjects: 2.354400 ms  DeleteObjects: 0.275800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -282,12 +883,12 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012187 seconds.
+Registered in 0.009929 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -301,40 +902,40 @@ UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 [Library/PackageCache/com.unity.probuilder@5.0.3/Editor/EditorCore/EditorUtility.cs line 575]
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.346 seconds
+- Completed reload, in  1.240 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1346ms)
-		BeginReloadAssembly (274ms)
+	ReloadAssembly (1241ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (921ms)
-			LoadAssemblies (287ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (846ms)
+			LoadAssemblies (264ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (229ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (394ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (359ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (40ms)
+				InitializePlatformSupportModulesInManaged (36ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (128ms)
-				ProcessInitializeOnLoadAttributes (172ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (158ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (22ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 1.27 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2137 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 2686.
-Memory consumption went from 183.3 MB to 182.0 MB.
-Total: 4.137200 ms (FindLiveObjects: 0.202700 ms CreateObjectMapping: 0.114100 ms MarkObjects: 3.347500 ms  DeleteObjects: 0.471100 ms)
+Unloading 20 unused Assets / (1.3 MB). Loaded Objects now: 2706.
+Memory consumption went from 182.7 MB to 181.4 MB.
+Total: 3.224600 ms (FindLiveObjects: 0.174400 ms CreateObjectMapping: 0.085800 ms MarkObjects: 2.620100 ms  DeleteObjects: 0.343000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -346,7 +947,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
