@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8551927005352517561}
   - component: {fileID: 4317887571330618093}
   - component: {fileID: 1937325510474330351}
+  - component: {fileID: 4191757895265471163}
+  - component: {fileID: 4726429885592728718}
+  - component: {fileID: 362156299855373165}
   m_Layer: 0
   m_Name: TileParticle
   m_TagString: Untagged
@@ -4887,3 +4890,58 @@ MonoBehaviour:
     value: 0
   itemName: funda
   size: {x: 0, y: 0, z: 0}
+--- !u!114 &4191757895265471163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152669160658644874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba507dbcf46b94a9895daa4d46e12805, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1937325510474330351}
+  collisionEventType: 1
+  collisionType: 2
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: nuketa
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
+--- !u!114 &4726429885592728718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152669160658644874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 1937325510474330351}
+  key:
+    target: 0
+    key: nuketa
+--- !u!65 &362156299855373165
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6152669160658644874}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.3396616, y: 0.46925837, z: 4.3498707}
+  m_Center: {x: 0.0073702335, y: 0.3073683, z: -0.0017991066}
