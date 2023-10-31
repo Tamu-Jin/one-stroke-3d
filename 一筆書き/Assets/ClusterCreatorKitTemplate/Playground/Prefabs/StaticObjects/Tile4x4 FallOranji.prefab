@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3114021241887759607}
   - component: {fileID: 7012664364980006227}
   - component: {fileID: 3654773606771560623}
-  - component: {fileID: 5011209664522741428}
+  - component: {fileID: 221962512971834249}
   m_Layer: 0
   m_Name: Tile4x4 FallOranji
   m_TagString: Untagged
@@ -129,14 +129,14 @@ Animator:
   m_Controller: {fileID: 9100000, guid: b191f7586c0d2c04ba35076cf461df36, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &5011209664522741428
+--- !u!114 &221962512971834249
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,5 +150,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 7012664364980006227}
   key:
-    target: 0
-    key: 
+    target: 2
+    key: otita

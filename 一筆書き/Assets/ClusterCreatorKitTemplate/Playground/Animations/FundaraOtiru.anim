@@ -21,14 +21,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: {x: -0.64, y: 14.48, z: -18.24}
-        inSlope: {x: 0, y: -9.072223, z: 0}
-        outSlope: {x: 0, y: -9.072223, z: 0}
+        inSlope: {x: 0, y: -9.605882, z: 0}
+        outSlope: {x: 0, y: -9.605882, z: 0}
         tangentMode: 0
         weightedMode: 0
         inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
         outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334}
       - serializedVersion: 3
-        time: 1.8
+        time: 1.7
         value: {x: -0.64, y: -1.85, z: -18.24}
         inSlope: {x: 0, y: -14.182978, z: 0}
         outSlope: {x: 0, y: -14.182978, z: 0}
@@ -113,14 +113,14 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 14.48
-        inSlope: -9.072223
-        outSlope: -9.072223
+        inSlope: -9.605882
+        outSlope: -9.605882
         tangentMode: 34
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1.8
+        time: 1.7
         value: -1.85
         inSlope: -14.182978
         outSlope: -14.182978
@@ -166,4 +166,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 1
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 3.1333334
+    functionName: OnDestroy
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
