@@ -1,19 +1,18 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - Tile
     - TileManager
     ClusterVR.CreatorKit.Editor.dll:
     - ClusterVR.CreatorKit.Editor.Builder.BuiltAssetBundlePaths
     - ClusterVR.CreatorKit.Editor.Window.View.VenueUploadWindow
     ClusterVR.CreatorKit.Gimmick.Implements.dll:
     - ClusterVR.CreatorKit.Gimmick.Implements.CreateItemGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.DestroyItemGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.RespawnPlayerGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetJumpHeightRatePlayerGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetMoveSpeedRatePlayerGimmick
     ClusterVR.CreatorKit.Item.Implements.dll:
     - ClusterVR.CreatorKit.Item.Implements.Item
-    - ClusterVR.CreatorKit.Item.Implements.RidableItem
     ClusterVR.CreatorKit.Operation.Implements.dll:
     - ClusterVR.CreatorKit.Operation.Implements.PlayerLogic
     - ClusterVR.CreatorKit.Operation.Implements.PlayerTimer
@@ -21,12 +20,11 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
-    - ClusterVR.CreatorKit.Trigger.Implements.OnGetOnItemTrigger
     - ClusterVR.CreatorKit.Trigger.Implements.OnJoinPlayerTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
-    - ClusterVR.CreatorKit.World.Implements.WarpPortal.PlayerEnterWarpPortal
+    - ClusterVR.CreatorKit.World.Implements.WorldGate.WorldGate
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridBrush
     - UnityEditor.Tilemaps.GridPaintingState
@@ -39,6 +37,14 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Postprocessing.Runtime.dll:
     - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -50,11 +56,9 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.Text
   serializedClasses:
     ClusterVR.CreatorKit.Gimmick.Implements:
-    - ClusterVR.CreatorKit.Gimmick.Implements.GimmickKey
     - ClusterVR.CreatorKit.Gimmick.Implements.PlayerGimmickKey
     ClusterVR.CreatorKit.Item:
     - ClusterVR.CreatorKit.Item.ItemId
-    - ClusterVR.CreatorKit.Item.ItemTemplateId
     ClusterVR.CreatorKit.Operation:
     - ClusterVR.CreatorKit.Operation.ConstantValue
     - ClusterVR.CreatorKit.Operation.Expression
@@ -117,33 +121,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2520}
     - Class: 114
-      Script: {instanceID: 2632}
-    - Class: 114
       Script: {instanceID: 2684}
-    - Class: 114
-      Script: {instanceID: 2700}
     - Class: 114
       Script: {instanceID: 2754}
     - Class: 114
       Script: {instanceID: 3024}
     - Class: 114
-      Script: {instanceID: 3190}
-    - Class: 114
       Script: {instanceID: 3830}
-    - Class: 114
-      Script: {instanceID: 4240}
     - Class: 114
       Script: {instanceID: 4330}
     - Class: 114
       Script: {instanceID: 4592}
-    - Class: 114
-      Script: {instanceID: 4786}
     - Class: 114
       Script: {instanceID: 4856}
     - Class: 114
       Script: {instanceID: 5232}
     - Class: 114
       Script: {instanceID: 5494}
+    - Class: 114
+      Script: {instanceID: 5582}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -201,22 +197,10 @@ ScriptsOnlyBuild:
     className: RespawnPlayerGimmick
   - hash:
       serializedVersion: 2
-      Hash: 2b1aa5884725c486971b2974e2b3b7cd
-    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
-    namespaceName: ClusterVR.CreatorKit.World.Implements.WarpPortal
-    className: PlayerEnterWarpPortal
-  - hash:
-      serializedVersion: 2
       Hash: 0bd36db505eb47bf99ffb99953b7306b
     assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
     className: SetJumpHeightRatePlayerGimmick
-  - hash:
-      serializedVersion: 2
-      Hash: 75dd77d3eaf67a85b31ce41fca5ed55a
-    assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
-    namespaceName: ClusterVR.CreatorKit.Item.Implements
-    className: RidableItem
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -231,22 +215,10 @@ ScriptsOnlyBuild:
     className: SpawnPoint
   - hash:
       serializedVersion: 2
-      Hash: 453e33ad2962b6bd1ad073572c3e3af3
-    assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
-    namespaceName: ClusterVR.CreatorKit.Trigger.Implements
-    className: OnGetOnItemTrigger
-  - hash:
-      serializedVersion: 2
       Hash: cd85e2df3fa317c7d3e66e2b9a5b8749
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
     className: OnJoinPlayerTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Tile
   - hash:
       serializedVersion: 2
       Hash: 0f8a7a49cb1008b34873dca1cb160dd8
@@ -259,12 +231,6 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
     className: OnCollideItemTrigger
-  - hash:
-      serializedVersion: 2
-      Hash: 603f39814510fdc6974942045808e86b
-    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
-    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
-    className: CreateItemGimmick
   - hash:
       serializedVersion: 2
       Hash: 0bd36db505eb47bf99ffb99953b7306b
@@ -283,6 +249,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Operation.Implements
     className: PlayerLogic
+  - hash:
+      serializedVersion: 2
+      Hash: 882ae06513466d3ef3b5f0d0de0a682b
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.WorldGate
+    className: WorldGate
   platform: 13
   scenePathNames:
   - Assets/venue_6f05f3ead7ba9b47dabdc9a151.unity
