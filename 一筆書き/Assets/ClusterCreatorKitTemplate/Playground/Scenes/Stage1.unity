@@ -1472,6 +1472,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: WorldWorp (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3604681883199562967, guid: 3d84ef3e1bad7884d98abb9df31cb72e,
+        type: 3}
+      propertyPath: worldOrEventId
+      value: 56aee276-1293-4040-9700-d9de38711972
+      objectReference: {fileID: 0}
     - target: {fileID: 4682524824899665065, guid: 3d84ef3e1bad7884d98abb9df31cb72e,
         type: 3}
       propertyPath: id.value
@@ -2188,6 +2193,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: WorldWorp (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3604681883199562967, guid: 3d84ef3e1bad7884d98abb9df31cb72e,
+        type: 3}
+      propertyPath: worldOrEventId
+      value: 51efc31e-78d3-4e81-ac30-5a87cebbceda
       objectReference: {fileID: 0}
     - target: {fileID: 4682524824899665065, guid: 3d84ef3e1bad7884d98abb9df31cb72e,
         type: 3}

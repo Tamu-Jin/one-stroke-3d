@@ -192,5 +192,5 @@ MonoBehaviour:
   itemTemplate: {fileID: 7012664364980006227, guid: 8953cfa18ca2ae040bd5acf42eb78db9,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 17211584295635819407
   spawnPoint: {fileID: 137465428634400075}

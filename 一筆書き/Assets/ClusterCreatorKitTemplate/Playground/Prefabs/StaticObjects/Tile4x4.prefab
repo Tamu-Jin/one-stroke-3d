@@ -165,7 +165,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 1937325510474330351, guid: 5c1bcca2da4e8c840a466794fb48c940,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 16388632404824813435
   spawnPoint: {fileID: 4604694456196662616}
 --- !u!65 &4638149432472060356
 BoxCollider:
@@ -241,5 +241,5 @@ MonoBehaviour:
   itemTemplate: {fileID: 7367204086484457935, guid: 0413dddff9f98d34db2bab10799d3d51,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 13936586256131436110
   spawnPoint: {fileID: 4604694456196662616}
