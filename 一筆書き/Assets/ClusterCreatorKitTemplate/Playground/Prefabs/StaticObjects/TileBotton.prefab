@@ -74,292 +74,78 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
---- !u!1001 &6918196807403602934
+--- !u!1001 &7579439136826702796
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 1620432896415783208}
     m_Modifications:
-    - target: {fileID: 1550590230973466955, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 2034272137677230936, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: m_Layer
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849480, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: triggers.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849480, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: triggers.Array.data[1].key
-      value: Press
-      objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849480, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: triggers.Array.data[1].value.boolValue
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849487, guid: d482401a543986f4cbf857f8b7fc767f,
-        type: 3}
-      propertyPath: m_Name
-      value: Button
-      objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalRotation.w
       value: -0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalRotation.x
       value: 0.7071068
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
       value: 270
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8727883509490607765, guid: d482401a543986f4cbf857f8b7fc767f,
+    - target: {fileID: 8857305725767056949, guid: 837da0a4d6118d043a4c8238b27f25b4,
         type: 3}
-      propertyPath: m_Layer
-      value: 14
+      propertyPath: m_Name
+      value: Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d482401a543986f4cbf857f8b7fc767f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 837da0a4d6118d043a4c8238b27f25b4, type: 3}
 --- !u!4 &1424521895841056195 stripped
 Transform:
-  m_CorrespondingSourceObject: {fileID: 8342553591815849525, guid: d482401a543986f4cbf857f8b7fc767f,
+  m_CorrespondingSourceObject: {fileID: 8857305725767056911, guid: 837da0a4d6118d043a4c8238b27f25b4,
     type: 3}
-  m_PrefabInstance: {fileID: 6918196807403602934}
+  m_PrefabInstance: {fileID: 7579439136826702796}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1424521895841056249 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8342553591815849487, guid: d482401a543986f4cbf857f8b7fc767f,
-    type: 3}
-  m_PrefabInstance: {fileID: 6918196807403602934}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3699363693202136593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424521895841056249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f90a8458122ef47c3b840e286a75994a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1424521895841056250}
-  triggers:
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: MAX_COUNT
-    type: 3
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 1
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
-  - target: 0
-    specifiedTargetItem: {fileID: 0}
-    key: count
-    type: 3
-    value:
-      boolValue: 0
-      floatValue: 0
-      integerValue: 0
-      vector2Value: {x: 0, y: 0}
-      vector3Value: {x: 0, y: 0, z: 0}
---- !u!114 &4085661670190254432
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424521895841056249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d06d8dc2ce9e442ab2712de694945b2e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  item: {fileID: 1424521895841056250}
-  key:
-    target: 0
-    key: Press
-  logic:
-    statements:
-    - singleStatement:
-        targetState:
-          target: 0
-          key: count
-          parameterType: 3
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 2
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: count
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 1
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: 
-                  type: 6
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 0
-          key: Press
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-              vector2Value: {x: 0, y: 0}
-              vector3Value: {x: 0, y: 0, z: 0}
-            sourceState:
-              target: 0
-              key: 
-              type: 6
-          operatorExpression:
-            operator: 12
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: count
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                  vector2Value: {x: 0, y: 0}
-                  vector3Value: {x: 0, y: 0, z: 0}
-                sourceState:
-                  target: 0
-                  key: MAX_COUNT
-                  type: 3
-              operatorExpression:
-                operator: 0
-                operands: []
---- !u!114 &1424521895841056250 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8342553591815849484, guid: d482401a543986f4cbf857f8b7fc767f,
-    type: 3}
-  m_PrefabInstance: {fileID: 6918196807403602934}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1424521895841056249}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3977a5e65e72f4db4b85ddba10d48dd4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
