@@ -146,6 +146,16 @@ MonoBehaviour:
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
+  - target: 3
+    specifiedTargetItem: {fileID: 0}
+    key: Damage
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 1
+      vector2Value: {x: 0, y: 0}
+      vector3Value: {x: 0, y: 0, z: 0}
 --- !u!114 &8520063518471725516
 MonoBehaviour:
   m_ObjectHideFlags: 0
