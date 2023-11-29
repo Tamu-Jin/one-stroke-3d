@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":2.35311222076416,"y":9.974987030029297,"z":-26.2850341796875},"rotation":{"x":0.019449802115559579,"y":0.9802044034004211,"z":-0.15265630185604096,"w":0.1247362494468689},"size":14.10616397857666,"orthographic":false}
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":true,"showSkybox":true,"showFlares":true,"showImageEffects":true,"showParticleSystems":true,"showVisualEffectGraphs":true,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":-516.0100708007813,"y":-387.4361572265625,"z":-146.05084228515626},"rotation":{"x":-0.1941850781440735,"y":0.7537996768951416,"z":-0.25522977113723757,"w":-0.5739158987998962},"size":342.9434814453125,"orthographic":false}
+>>>>>>> parent of d2bc5e72 (床のバグ治ったよ)
