@@ -744,7 +744,7 @@ MonoBehaviour:
     type: 2
     value:
       boolValue: 0
-      floatValue: 1
+      floatValue: 0
       integerValue: 0
       vector2Value: {x: 0, y: 0}
       vector3Value: {x: 0, y: 0, z: 0}
