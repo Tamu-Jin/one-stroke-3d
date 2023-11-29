@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Gimmick.Implements.DestroyItemGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.PlayAudioSourceGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetAnimatorValueGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.SetFillAmountGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetJumpHeightRatePlayerGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetMoveSpeedRatePlayerGimmick
     ClusterVR.CreatorKit.Item.Implements.dll:
@@ -16,8 +17,6 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Operation.Implements.ItemLogic
     - ClusterVR.CreatorKit.Operation.Implements.PlayerLogic
     - ClusterVR.CreatorKit.Operation.Implements.PlayerTimer
-    ClusterVR.CreatorKit.Preview.dll:
-    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.InteractItemTrigger
     - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
@@ -25,6 +24,8 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Trigger.Implements.OnJoinPlayerTrigger
     ClusterVR.CreatorKit.World.Implements.dll:
     - ClusterVR.CreatorKit.World.Implements.DespawnHeights.DespawnHeight
+    - ClusterVR.CreatorKit.World.Implements.PlayerLocalUI.PlayerLocalUI
+    - ClusterVR.CreatorKit.World.Implements.PlayerLocalUI.SafeArea
     - ClusterVR.CreatorKit.World.Implements.SpawnPoints.SpawnPoint
     - ClusterVR.CreatorKit.World.Implements.WorldGate.WorldGate
     Unity.2D.Tilemap.Editor.dll:
@@ -37,16 +38,6 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.Postprocessing.Runtime.dll:
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -84,7 +75,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/venue_d44eb13ed702c6e13a3a3f30c3.unity:
+    Assets/venue_868382d4003e14f3bd97c9187c.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -120,47 +111,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1612}
+      Script: {instanceID: 1966}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 2040}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 2460}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 2658}
     - Class: 114
-      Script: {instanceID: 2306}
+      Script: {instanceID: 2820}
     - Class: 114
-      Script: {instanceID: 2528}
+      Script: {instanceID: 2824}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 3046}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3316}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 3402}
     - Class: 114
-      Script: {instanceID: 3640}
+      Script: {instanceID: 3456}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 3934}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 3986}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4624}
     - Class: 114
-      Script: {instanceID: 4786}
+      Script: {instanceID: 4866}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 4888}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 5082}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5152}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5528}
+    - Class: 114
+      Script: {instanceID: 5790}
+    - Class: 114
+      Script: {instanceID: 5878}
+    - Class: 114
+      Script: {instanceID: 6090}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -173,6 +170,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 199
       Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
     - Class: 222
       Script: {instanceID: 0}
     - Class: 223
@@ -182,22 +181,10 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: cfba51718440c804bd57c12f8191d23d
@@ -218,10 +205,22 @@ ScriptsOnlyBuild:
     className: ItemLogic
   - hash:
       serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
       Hash: cfba51718440c804bd57c12f8191d23d
     assemblyName: ClusterVR.CreatorKit.Trigger.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Trigger.Implements
     className: OnCreateItemTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 8caa3413dfbadcd40895ac8b62336e03
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.PlayerLocalUI
+    className: PlayerLocalUI
   - hash:
       serializedVersion: 2
       Hash: 0bd36db505eb47bf99ffb99953b7306b
@@ -240,6 +239,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
     className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: fcbd4bd0ac5f41d5b4cf29c1a66435f2
@@ -270,6 +275,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Item.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Item.Implements
     className: Item
+  - hash:
+      serializedVersion: 2
+      Hash: 25b9b0a682ca44c14500fe67cbc6a2bf
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: SetFillAmountGimmick
   - hash:
       serializedVersion: 2
       Hash: 0133b47dbc333250e5b86c11d087eb2e
@@ -306,8 +317,14 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.WorldGate
     className: WorldGate
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ClusterVR.CreatorKit.World.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.World.Implements.PlayerLocalUI
+    className: SafeArea
   platform: 13
   scenePathNames:
-  - Assets/venue_d44eb13ed702c6e13a3a3f30c3.unity
+  - Assets/venue_868382d4003e14f3bd97c9187c.unity
   playerPath: C:/Users/s212166/AppData/Local/Temp/DefaultCompany/Cluster Creator
-    Kit Template/Android/venue_d44eb13ed702c6e13a3a3f30c3
+    Kit Template/Android/venue_868382d4003e14f3bd97c9187c
