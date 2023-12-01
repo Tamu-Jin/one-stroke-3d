@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7012664364980006227}
   - component: {fileID: 3654773606771560623}
   - component: {fileID: 221962512971834249}
+  - component: {fileID: 6158414231052216368}
   m_Layer: 0
   m_Name: Tile4x4 FallOranji
   m_TagString: Untagged
@@ -152,3 +153,19 @@ MonoBehaviour:
   key:
     target: 2
     key: otita
+--- !u!114 &6158414231052216368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4339832252445886512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 7012664364980006227}
+  key:
+    target: 2
+    key: PressDestroi
