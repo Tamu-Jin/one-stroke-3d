@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 6368893539111541881}
   - component: {fileID: 6058086344398438950}
   - component: {fileID: 2671391374241583494}
+  - component: {fileID: 2105116427671206722}
   m_Layer: 0
   m_Name: Tile4x4
   m_TagString: Untagged
@@ -239,3 +240,19 @@ MonoBehaviour:
   itemTemplateId:
     value: 13936586256131436110
   spawnPoint: {fileID: 4604694456196662616}
+--- !u!114 &2105116427671206722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 385351690816998591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 6355379756128545244}
+  key:
+    target: 2
+    key: PressDestroi
