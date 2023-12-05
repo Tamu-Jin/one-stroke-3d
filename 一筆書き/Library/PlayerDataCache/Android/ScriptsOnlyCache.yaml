@@ -7,6 +7,7 @@ ScriptsOnlyBuild:
     - ClusterVR.CreatorKit.Gimmick.Implements.CreateItemGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.DestroyItemGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.PlayAudioSourceGimmick
+    - ClusterVR.CreatorKit.Gimmick.Implements.RespawnPlayerGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetAnimatorValueGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetFillAmountGimmick
     - ClusterVR.CreatorKit.Gimmick.Implements.SetJumpHeightRatePlayerGimmick
@@ -123,6 +124,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2170}
     - Class: 114
+      Script: {instanceID: 2520}
+    - Class: 114
       Script: {instanceID: 2532}
     - Class: 114
       Script: {instanceID: 2684}
@@ -207,6 +210,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Operation.Implements
     className: PlayerTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 0bd36db505eb47bf99ffb99953b7306b
+    assemblyName: ClusterVR.CreatorKit.Gimmick.Implements.dll
+    namespaceName: ClusterVR.CreatorKit.Gimmick.Implements
+    className: RespawnPlayerGimmick
   - hash:
       serializedVersion: 2
       Hash: 8caa3413dfbadcd40895ac8b62336e03
