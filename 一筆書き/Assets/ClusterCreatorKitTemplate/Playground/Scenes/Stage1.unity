@@ -955,7 +955,7 @@ PrefabInstance:
     - target: {fileID: 3493015400192070098, guid: b06708d5ac0640942b10ff725e14fc68,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3493015400192070098, guid: b06708d5ac0640942b10ff725e14fc68,
         type: 3}
@@ -3137,7 +3137,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &1900661875
 MonoBehaviour:
