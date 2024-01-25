@@ -17,8 +17,6 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Operation.Implements.dll:
     - ClusterVR.CreatorKit.Operation.Implements.PlayerLogic
     - ClusterVR.CreatorKit.Operation.Implements.PlayerTimer
-    ClusterVR.CreatorKit.Preview.dll:
-    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.InteractItemTrigger
     - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
@@ -40,8 +38,14 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
-    Unity.Postprocessing.Runtime.dll:
-    - UnityEngine.Rendering.PostProcessing.PostProcessResources
+    UnityEditor.Graphs.dll:
+    - UnityEditor.Graphs.AnimationBlendTree.Graph
+    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
+    - UnityEditor.Graphs.AnimationStateMachine.Graph
+    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
+    - UnityEditor.Graphs.AnimationStateMachine.StateNode
+    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -79,7 +83,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/venue_c1761959e78d1ec38a195310a7.unity:
+    Assets/venue_868382d4003e14f3bd97c9187c.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -97,6 +101,8 @@ ScriptsOnlyBuild:
     - Class: 48
       Script: {instanceID: 0}
     - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -331,6 +337,6 @@ ScriptsOnlyBuild:
     className: SafeArea
   platform: 2
   scenePathNames:
-  - Assets/venue_c1761959e78d1ec38a195310a7.unity
+  - Assets/venue_868382d4003e14f3bd97c9187c.unity
   playerPath: C:/Users/s212166/AppData/Local/Temp/DefaultCompany/Cluster Creator
-    Kit Template/StandaloneOSX/venue_c1761959e78d1ec38a195310a7
+    Kit Template/StandaloneOSX/venue_868382d4003e14f3bd97c9187c
