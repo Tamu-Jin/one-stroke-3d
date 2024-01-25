@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2176923369752918765}
   - component: {fileID: 2176923369752918764}
   - component: {fileID: 2176923369752918767}
-  - component: {fileID: 2176923369752918766}
   - component: {fileID: 742951809299326888}
   - component: {fileID: 5416456808927331199}
   - component: {fileID: 4828077849253979512}
@@ -106,19 +105,6 @@ MonoBehaviour:
     value: 0
   itemName: tile
   size: {x: 0, y: 0, z: 0}
---- !u!65 &2176923369752918766
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2176923369752918743}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 0.017320506, y: 0.014999997, z: 0.0015000007}
-  m_Center: {x: 0, y: 0.0024999995, z: 0}
 --- !u!114 &742951809299326888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -210,5 +196,5 @@ MeshCollider:
   m_Enabled: 1
   serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 30
+  m_CookingOptions: 2
   m_Mesh: {fileID: 2534964839176971238, guid: 4d0ef04ebeedc7c4a98d694349dda9a9, type: 3}

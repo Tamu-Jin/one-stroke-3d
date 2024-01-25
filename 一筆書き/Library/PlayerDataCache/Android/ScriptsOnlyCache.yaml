@@ -17,6 +17,8 @@ ScriptsOnlyBuild:
     ClusterVR.CreatorKit.Operation.Implements.dll:
     - ClusterVR.CreatorKit.Operation.Implements.PlayerLogic
     - ClusterVR.CreatorKit.Operation.Implements.PlayerTimer
+    ClusterVR.CreatorKit.Preview.dll:
+    - ClusterVR.CreatorKit.Preview.Common.TickGenerator
     ClusterVR.CreatorKit.Trigger.Implements.dll:
     - ClusterVR.CreatorKit.Trigger.Implements.InteractItemTrigger
     - ClusterVR.CreatorKit.Trigger.Implements.OnCollideItemTrigger
@@ -38,6 +40,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TileDragAndDropManager
     - UnityEditor.Tilemaps.TilemapEditorToolPreferences
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
+    Unity.Postprocessing.Runtime.dll:
+    - UnityEngine.Rendering.PostProcessing.PostProcessResources
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
@@ -83,7 +87,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/venue_868382d4003e14f3bd97c9187c.unity:
+    Assets/venue_b87d91442376b7cc3cb70dc93e.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -121,53 +125,53 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1612}
+      Script: {instanceID: 1986}
     - Class: 114
-      Script: {instanceID: 1614}
+      Script: {instanceID: 2060}
     - Class: 114
-      Script: {instanceID: 1616}
+      Script: {instanceID: 2480}
     - Class: 114
-      Script: {instanceID: 1750}
+      Script: {instanceID: 2678}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 2832}
     - Class: 114
-      Script: {instanceID: 2520}
+      Script: {instanceID: 2844}
     - Class: 114
-      Script: {instanceID: 2532}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 2632}
+      Script: {instanceID: 2996}
     - Class: 114
-      Script: {instanceID: 2684}
+      Script: {instanceID: 3066}
     - Class: 114
-      Script: {instanceID: 2754}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3024}
+      Script: {instanceID: 3422}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 3476}
     - Class: 114
-      Script: {instanceID: 3640}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 3692}
+      Script: {instanceID: 4006}
     - Class: 114
-      Script: {instanceID: 3830}
+      Script: {instanceID: 4144}
     - Class: 114
-      Script: {instanceID: 4330}
+      Script: {instanceID: 4644}
     - Class: 114
-      Script: {instanceID: 4572}
+      Script: {instanceID: 4886}
     - Class: 114
-      Script: {instanceID: 4592}
+      Script: {instanceID: 4908}
     - Class: 114
-      Script: {instanceID: 4786}
+      Script: {instanceID: 5102}
     - Class: 114
-      Script: {instanceID: 4856}
+      Script: {instanceID: 5172}
     - Class: 114
-      Script: {instanceID: 5232}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 5494}
+      Script: {instanceID: 5810}
     - Class: 114
-      Script: {instanceID: 5582}
+      Script: {instanceID: 5898}
     - Class: 114
-      Script: {instanceID: 5794}
+      Script: {instanceID: 6110}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -193,22 +197,10 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: a6e561615949734e9f12f9b61661f43e
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: Image
-  - hash:
-      serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: cfba51718440c804bd57c12f8191d23d
@@ -221,6 +213,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.Operation.Implements.dll
     namespaceName: ClusterVR.CreatorKit.Operation.Implements
     className: PlayerTimer
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
   - hash:
       serializedVersion: 2
       Hash: 0bd36db505eb47bf99ffb99953b7306b
@@ -257,6 +255,12 @@ ScriptsOnlyBuild:
     assemblyName: ClusterVR.CreatorKit.World.Implements.dll
     namespaceName: ClusterVR.CreatorKit.World.Implements.SpawnPoints
     className: SpawnPoint
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
   - hash:
       serializedVersion: 2
       Hash: fcbd4bd0ac5f41d5b4cf29c1a66435f2
@@ -337,6 +341,6 @@ ScriptsOnlyBuild:
     className: SafeArea
   platform: 13
   scenePathNames:
-  - Assets/venue_868382d4003e14f3bd97c9187c.unity
-  playerPath: C:/Users/s212166/AppData/Local/Temp/DefaultCompany/Cluster Creator
-    Kit Template/Android/venue_868382d4003e14f3bd97c9187c
+  - Assets/venue_b87d91442376b7cc3cb70dc93e.unity
+  playerPath: C:/Users/s212058/AppData/Local/Temp/DefaultCompany/Cluster Creator
+    Kit Template/Android/venue_b87d91442376b7cc3cb70dc93e

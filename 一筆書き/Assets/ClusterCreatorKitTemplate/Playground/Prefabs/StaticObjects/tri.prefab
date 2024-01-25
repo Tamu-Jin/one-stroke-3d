@@ -12,14 +12,12 @@ GameObject:
   - component: {fileID: 477322792874936630}
   - component: {fileID: 2412589941479636476}
   - component: {fileID: 3278180913529368895}
-  - component: {fileID: 7368126255139533957}
   - component: {fileID: 5115666675745903351}
   - component: {fileID: 1781092242467525984}
   - component: {fileID: 3156474929828825810}
   - component: {fileID: 219281379261815677}
   - component: {fileID: 5972909206430184043}
   - component: {fileID: 863628415286366417}
-  - component: {fileID: 2455898447959175823}
   - component: {fileID: 7853810290570558882}
   m_Layer: 0
   m_Name: tri
@@ -109,19 +107,6 @@ MonoBehaviour:
     value: 0
   itemName: tile
   size: {x: 0, y: 0, z: 0}
---- !u!65 &7368126255139533957
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214174858465860649}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 0.017320506, y: 0.014999997, z: 0.0015000007}
-  m_Center: {x: 0, y: 0.0024999995, z: 0}
 --- !u!114 &5115666675745903351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -174,7 +159,7 @@ MonoBehaviour:
   key:
     target: 0
     key: funda
-  itemTemplate: {fileID: 1937325510474330351, guid: 5c1bcca2da4e8c840a466794fb48c940,
+  itemTemplate: {fileID: 1937325510474330351, guid: f87683c9b00105e4e8dedf20e36ee75d,
     type: 3}
   itemTemplateId:
     value: 16388632404824813435
@@ -258,19 +243,6 @@ MonoBehaviour:
   key:
     target: 2
     key: PressDestroi
---- !u!65 &2455898447959175823
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4214174858465860649}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 0
-  serializedVersion: 2
-  m_Size: {x: 16, y: 2, z: 16}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!64 &7853810290570558882
 MeshCollider:
   m_ObjectHideFlags: 0
