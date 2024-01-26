@@ -42,10 +42,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -81,7 +79,7 @@ ScriptsOnlyBuild:
     - UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
   methodsToPreserve: []
   sceneClasses:
-    Assets/venue_6f05f3ead7ba9b47dabdc9a151.unity:
+    Assets/venue_b87d91442376b7cc3cb70dc93e.unity:
     - Class: 1
       Script: {instanceID: 0}
     - Class: 4
@@ -109,6 +107,8 @@ ScriptsOnlyBuild:
     - Class: 83
       Script: {instanceID: 0}
     - Class: 84
+      Script: {instanceID: 0}
+    - Class: 89
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
@@ -261,6 +261,6 @@ ScriptsOnlyBuild:
     className: WorldGate
   platform: 13
   scenePathNames:
-  - Assets/venue_6f05f3ead7ba9b47dabdc9a151.unity
-  playerPath: C:/Users/s212166/AppData/Local/Temp/DefaultCompany/Cluster Creator
-    Kit Template/Android/venue_6f05f3ead7ba9b47dabdc9a151
+  - Assets/venue_b87d91442376b7cc3cb70dc93e.unity
+  playerPath: C:/Users/s212058/AppData/Local/Temp/DefaultCompany/Cluster Creator
+    Kit Template/Android/venue_b87d91442376b7cc3cb70dc93e
